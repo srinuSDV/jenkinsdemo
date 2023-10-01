@@ -1,9 +1,48 @@
-<mxfile host="app.diagrams.net" modified="2023-10-01T14:55:39.118Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" version="22.0.0" etag="XTTyh4lJ-6bq2gbFa5q5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-01T15:24:09.694Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="nupzUpVtptuLsnPevBAD" version="22.0.0" type="github">
   <diagram name="Page-1" id="1zDlA2JxuWpXYPMDUVVL">
-    <mxGraphModel>
+    <mxGraphModel dx="1138" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="KCtC4ts-CRCc6Swi7QtN-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KCtC4ts-CRCc6Swi7QtN-1" target="KCtC4ts-CRCc6Swi7QtN-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KCtC4ts-CRCc6Swi7QtN-1" value="3D detections from SECOND" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeColor=#000000;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="120" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KCtC4ts-CRCc6Swi7QtN-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;shadow=0;strokeColor=#000000;fontStyle=1" edge="1" parent="1" source="KCtC4ts-CRCc6Swi7QtN-2" target="KCtC4ts-CRCc6Swi7QtN-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KCtC4ts-CRCc6Swi7QtN-2" value="2D Detections from YOLOv7" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeColor=#000000;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="280" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KCtC4ts-CRCc6Swi7QtN-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=0;strokeColor=#000000;fontStyle=1" edge="1" parent="1" source="KCtC4ts-CRCc6Swi7QtN-4" target="KCtC4ts-CRCc6Swi7QtN-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KCtC4ts-CRCc6Swi7QtN-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=0;strokeColor=#000000;fontStyle=1" edge="1" parent="1" source="KCtC4ts-CRCc6Swi7QtN-4" target="KCtC4ts-CRCc6Swi7QtN-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KCtC4ts-CRCc6Swi7QtN-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=0;strokeColor=#000000;fontStyle=1" edge="1" parent="1" source="KCtC4ts-CRCc6Swi7QtN-4" target="KCtC4ts-CRCc6Swi7QtN-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KCtC4ts-CRCc6Swi7QtN-4" value="IOU Matching&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeColor=#000000;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="460" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KCtC4ts-CRCc6Swi7QtN-7" value="Detections 3D fused" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeColor=#000000;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="650" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KCtC4ts-CRCc6Swi7QtN-8" value="Detections 3D only" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeColor=#000000;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="650" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KCtC4ts-CRCc6Swi7QtN-13" value="Detections 2D only" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeColor=#000000;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="650" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KCtC4ts-CRCc6Swi7QtN-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KCtC4ts-CRCc6Swi7QtN-24" target="KCtC4ts-CRCc6Swi7QtN-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KCtC4ts-CRCc6Swi7QtN-24" value="3D detection projected onto image domain&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="280" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
